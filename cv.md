@@ -2,21 +2,22 @@
 
 ### Contacts for communication
 
-Telegram: @ElenLen
-Discord: Elena Petukhova (@ElenLen)
+- Telegram: @ElenLen
+- Discord: Elena Petukhova (@ElenLen)
 
 ### Brief information about me
 
-I am a Frontend developer from Russia.
-🌱 I study everything new with great desire, I like to implement the knowledge gained in my projects
-🗺️ I love when websites are beautiful, functional and convenient to use
-👩‍💻 I work with JavaScript, HTML, CSS3, SASS, BOOTSTRAP
+- I am a Frontend developer from Russia.
+- 🌱 I study everything new with great desire, I like to implement the knowledge gained in my projects
+- 🗺️ I love when websites are beautiful, functional and convenient to use
+- 👩‍💻 I work with JavaScript, HTML, CSS3, SASS, BOOTSTRAP
 
-When I do not code, I love:
-🏂 Snowboard in the mountains in winter
-🏃imes run in the summer and participate in competitions
-📖 I like to read interesting books
-🐕🐱🐕 Play with your pytomas
+### When I do not code, I love:
+
+- 🏂 Snowboard in the mountains in winter
+- 🏃imes run in the summer and participate in competitions
+- 📖 I like to read interesting books
+- 🐕🐱🐕 Play with your pytomas
 
 ### Skills
 
@@ -50,8 +51,8 @@ When I do not code, I love:
 
 ### Examples of code and Experience
 
-[Site with cookies](https://elenlen.github.io/cookies/)
-[This is an educational project made by students of the #itgirlsschool](https://github.com/ElenLen/Lava-Studio)
+- [Site with cookies](https://elenlen.github.io/cookies/)
+- [This is an educational project made by students of the #itgirlsschool](https://github.com/ElenLen/Lava-Studio)
 
 ### Education
 
