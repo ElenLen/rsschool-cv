@@ -27,7 +27,7 @@
 ### Examples of code and Experience
 
 - [Site with cookies](https://elenlen.github.io/cookies/)
-- [This is an educational project made by students of the #itgirlsschool](https://github.com/ElenLen/Lava-Studio)
+- [This is an educational project made by students of the #itgirlsschool](https://elenlen.github.io/LavaStudio/)
 
 ### Education
 
