@@ -38,4 +38,4 @@
 ### English language
 
 - Russian - native speaker
-- English - A2 (B1 in proccess...)
+- English - A1 (A2 in proccess...)
