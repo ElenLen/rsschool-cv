@@ -3,7 +3,7 @@
     src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHp1dmt1eGpzbmx0d2t0OWQwYjR6YmhjY2xuaHVsamY3dWMzbHRvdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LMcB8XospGZO8UQq87/giphy.gif' />
 </div>
 
-# Hi, my name is Elena Petukhova
+# Hi, I`m Elena Petukhova
 
 ### Contacts for communication
 
@@ -37,4 +37,5 @@
 
 ### English language
 
-- A1
+- Russian - native speaker
+- English - A2 (B1 in proccess...)
