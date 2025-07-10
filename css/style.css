@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "RobotoItalic", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #273028;
+}
+
+.header,
+.footer {
+  background-color: #829985;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #5d7260;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #f3f6f4;
+}
+
+span {
+  color: #5d7260;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* Убираем стандартные маркеры */
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+/* Чтобы прокрутка происходила плавно */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Добавляем отступы между элементами списка */
+.menu-link {
+  padding: 0 20px;
+  line-height: 50px;
+  /* убираем подчёркивание у ссылок */
+  text-decoration: none;
+  color: #273028;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.menu-link:hover,
+.footer-container__link:hover,
+.footer-container__logo:hover {
+  color: #f3f6f4;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+
+.menu-item:hover {
+  color: #5d7260;
+}
+
+.burger {
+  display: none;
+}
+
+.menu-close {
+  display: none;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  /* каждая секция занимает ровно половину ширины контейнера */
+  width: 50%;
+  position: relative;
+  padding-left: 30px;
+  background-color: #82998593;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #829985;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #5d7260;
+}
+
+.section-subtitle {
+  margin-top: 20px;
+  color: #5d7260;
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.main-title {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #5d7260;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50px;
+  word-spacing: 3px;
+  font-family: "CarattereRegular", sans-serif;
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  height: 2px;
+  background-color: #829985;
+}
+
+h2 {
+  border-bottom: #5d7260 2px solid;
+}
+
+.profile-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0px 50px #5d7260;
+  filter: grayscale(0.2) brightness(1.05);
+  transition: 0.3s;
+}
+
+.code {
+  color: #5d7260;
+}
+
+.arrowTop {
+  border-radius: 50%;
+  background-color: #5d7260;
+  box-shadow: 0px 4px 3.64px 0.36px #5d7260;
+  position: fixed;
+  right: 70px;
+  bottom: 70px;
+  width: 60px;
+  height: 60px;
+  z-index: 271;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer-container__link {
+  text-decoration: none;
+  color: #273028;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.footer-container__logo {
+  width: 121px;
+  height: 45px;
+  background-image: url(../assets/svg/rs-school-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* при уменьшении ширины экрана до 768px, секция будет занимать всю ширину */
+@media (max-width: 775px) {
+  .section {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background: #829985;
+    z-index: 9999;
+  }
+
+  .header .container {
+    justify-content: space-between;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+
+  .burger svg {
+    width: 40px;
+    height: 40px;
+    fill: #5d7260;
+  }
+
+  .menu.open {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu .menu-close {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+  }
+}
